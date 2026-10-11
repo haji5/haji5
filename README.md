@@ -27,12 +27,3 @@ Greater Victoria's housing minister.
 **Analysis:** Python · pandas · pyfixest · statsmodels · SQL (DuckDB)
 **Building:** TypeScript · Preact · D3.js · Canvas · Web Workers · pnpm · GitHub Actions
 **Methods:** difference-in-differences · event studies · randomization inference · agent-based modeling · simulated method of moments · ABC calibration
-
-## Currently
-
-- Looking for [data analyst / data science / economics roles] starting [month year]
-- Working on: [next project]
-
-## Contact
-
-[Email] · [LinkedIn]
