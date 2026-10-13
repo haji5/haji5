@@ -18,12 +18,12 @@ randomization inference, and an [interactive dashboard](https://haji5.github.io/
 ### 🎮 [Zoned Out: a housing-policy game](https://github.com/haji5/housing-policy-sim) · [play it](https://haji5.github.io/housing-policy-sim/)
 An agent-based model calibrated to the estimates above, wrapped in a game where you are
 Greater Victoria's housing minister.
-- Reproduces the calibration target (-0.399 vs -0.390 log points) and reports where it misses
-- Used the simulator to test my own DiD: it overstates the true effect by about 11% when the control group is contaminated
-- Deterministic TypeScript core, 300-member parameter ensemble, Playwright and axe accessibility tests
+- Reproduces the calibration target (-0.379 vs -0.390 log points) and reports where it misses, including a failed held-out test
+- Used the simulator to stress-test my own DiD: at plausible spillover into the control group it stays within about 7% of the true effect (3% at the calibrated strength)
+- Deterministic TypeScript core, ABC-SMC calibration (300-member ensemble), Playwright and axe accessibility tests
 
 ## Toolbox
 
 **Analysis:** Python · pandas · pyfixest · statsmodels · SQL (DuckDB)
 **Building:** TypeScript · Preact · D3.js · Canvas · Web Workers · pnpm · GitHub Actions
-**Methods:** difference-in-differences · event studies · randomization inference · agent-based modeling · simulated method of moments · ABC calibration
+**Methods:** difference-in-differences · event studies · randomization inference · agent-based modeling · simulated method of moments · ABC-SMC calibration · Sobol sensitivity analysis
