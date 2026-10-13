@@ -24,6 +24,6 @@ Greater Victoria's housing minister.
 
 ## Toolbox
 
-**Analysis:** Python · pandas · pyfixest · statsmodels · SQL (DuckDB)
-**Building:** TypeScript · Preact · D3.js · Canvas · Web Workers · pnpm · GitHub Actions
-**Methods:** difference-in-differences · event studies · randomization inference · agent-based modeling · simulated method of moments · ABC-SMC calibration · Sobol sensitivity analysis
+- **Analysis:** Python · pandas · pyfixest · statsmodels · SQL (DuckDB)
+- **Building:** TypeScript · Preact · D3.js · Canvas · Web Workers · pnpm · GitHub Actions
+- **Methods:** difference-in-differences · event studies · randomization inference · agent-based modeling · simulated method of moments · ABC-SMC calibration · Sobol sensitivity analysis
